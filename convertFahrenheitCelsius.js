@@ -1,0 +1,12 @@
+function convertCtoF(celsius) {
+  // Insira a fórmula matemática aqui usando o parâmetro 'celsius' e use 'return'
+  let fahrenheit  = celsius * (9/5) + 32;
+  return fahrenheit;
+}
+
+
+convertCtoF(0);
+convertCtoF(-30);
+convertCtoF(-10);
+convertCtoF(20);
+convertCtoF(30);
